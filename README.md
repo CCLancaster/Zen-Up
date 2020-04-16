@@ -18,9 +18,9 @@ DSI: How did you get your data? What did you do with it? How did you interface w
 ## Team: Meet The SPARKtasticS
 (TODO: fill in what roles and jobs we took on during this hackathon)
 - Camryn Nicole Kennedy
-    * UX designer, UXDI30, her site can be found at {insert url here}
+    * UX designer, UXDI30, her site can be found at {Camryn-kennedy.com}
 - Jayne Casper
-    * UX designer, UXDI30, her site can be found at {insert url here}
+    * UX designer, UXDI30, her site can be found at {liveoutloud.tech}
 - Solomon Egwuonwu 
     * Software Engineer, SEI29, his site can be found {insert url here}
 - Dylan Lewis 
