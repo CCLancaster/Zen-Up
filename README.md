@@ -1,3 +1,42 @@
+# Zen Up
+The SPARKtasticS (short for the Sparktastic Squad), would like to invite you to Zen Up, a mindfulness app to help Sarah King survive quarantine by giving her goals each day to not only motivate her, but help her achieve Zen.
+
+### Live Link: {insert url}
+
+## Team: Meet The SPARKtasticS
+(TODO: fill in what roles and jobs we took on during this hackathon)
+- Camryn Nicole Kennedy
+    * UX designer, UXDI30, her site can be found at {insert url here}
+- Jayne Casper
+    * UX designer, UXDI30, her site can be found at {insert url here}
+- Solomon Egwuonwu 
+    * Software Engineer, SEI29, his site can be found {insert url here}
+- Dylan Lewis 
+    * Software Engineer, SEI29, his site can be found {insert url here}
+- Connie Lancster
+    * Software Engineer, SEI29, her site can be found {insert url here}
+
+## User Story: 
+(TODO: fill in our user story)
+
+
+## Wireframes:
+
+
+## Tech Used:
+(TODO: fill in the rest here)
+- React 
+
+
+## MVP (what we have in 24 hours):
+
+
+## Stretch Goals (what we'd like to see in the future):
+
+
+______________________
+
+# The Typical Spiel About Building a React App:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
