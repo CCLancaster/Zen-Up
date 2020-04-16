@@ -3,6 +3,18 @@ The SPARKtasticS (short for the Sparktastic Squad), would like to invite you to 
 
 ### Live Link: {insert url}
 
+## Hackathon Parameters:
+Sparks Joy—Virtual Hackathon
+Come and join us for a joint hackathon involving teams comprised of General Assembly Seattle's immersive classes! Bring your ideas to life in just two days, and get valuable experience working in cross-functional teams, all in a virtual environment!
+
+This hackathon's theme is SPARKS JOY! Inspired by Marie Condo's method for tidying, the goal of which is to "create a space that sparks joy." From her book, "You can also define things that spark joy as things that make you happy" which is what this hackathon is about! You can take it literally and make a tidying app, or maybe an app that helps you figure out what you haven't been using in a while, or maybe a simple app that takes a phrase and puts it out of context. Whatever app you do, the goal is that it "sparks joy" in both users and creators. 
+
+Overall, judges will be looking for the following things by discipline:
+
+UXDI: Is your audience engaged? Is this a useful product to your target demographic? Was the presentation convincing?
+SEI: How technically complete is the project? Does the app work? Were you able to execute on the ideas from your team? 
+DSI: How did you get your data? What did you do with it? How did you interface with devs and designers?
+
 ## Team: Meet The SPARKtasticS
 (TODO: fill in what roles and jobs we took on during this hackathon)
 - Camryn Nicole Kennedy
