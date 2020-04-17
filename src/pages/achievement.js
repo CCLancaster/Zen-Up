@@ -1,10 +1,10 @@
 import React from 'react';
-import aliveImg from './public/alive.jpg';
-import bichonImg from './public/bichon.gif';
-import cabinImg from './public/cabin.png';
-import hunterImg from './public/hunter.png';
-import joyImg from './public/joy.png';
-import lostImg from './public/lost.png';
+import aliveImg from '../public/alive.jpg';
+import bichonImg from '../public/bichon.gif';
+import cabinImg from '../public/cabin.png';
+import hunterImg from '../public/hunter.png';
+import joyImg from '../public/joy.png';
+import lostImg from '../public/lost.png';
 
 function Achievement(props){
 
