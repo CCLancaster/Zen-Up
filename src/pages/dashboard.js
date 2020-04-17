@@ -23,7 +23,7 @@ function Dashboard(props) {
                         <h3>Level 6</h3>
                     </div>
                     <div className="info">
-                        <p>You have 5 tasks </p>
+                        <p>You have 4 tasks </p>
                     </div>
                     <div className="info">
                         <p>to complete to level up!</p>

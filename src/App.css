@@ -10,7 +10,7 @@ body {
   background-size: 948px 871px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 nav {
@@ -323,7 +323,7 @@ img {
 
 .indigo {
   width: 415px;
-  height: 157px;
+  height: 280px;
   margin-bottom: 20px;
   background: #FFFFFF;
   border: 4px solid #3E3189;
@@ -336,13 +336,14 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
-  line-height: 157px;
+  padding-top: 40px;
+  line-height: 60px;
   text-align: center;
 }
 
 .blue {
   width: 415px;
-  height: 157px;
+  height: 280px;
   margin-bottom: 20px;
   background: #FFFFFF;
   border: 4px solid #88C8DC;
@@ -355,7 +356,8 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
-  line-height: 157px;
+  padding-top: 40px;
+  line-height: 60px;
   text-align: center;
 }
 
@@ -379,7 +381,7 @@ img {
 
 .yellow {
   width: 415px;
-  height: 157px;
+  height: 280px;
   margin-bottom: 20px;
   background: #FFFFFF;
   border: 4px solid #F4E198;
@@ -391,13 +393,14 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
-  line-height: 157px;
+  padding-top: 40px;
+  line-height: 60px;
   text-align: center;
 }
 
 .orange {
   width: 415px;
-  height: 157px;
+  height: 280px;
   margin-bottom: 20px;
   background: #FFFFFF;
   border: 4px solid #E39E73;
@@ -410,7 +413,8 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
-  line-height: 157px;
+  padding-top: 40px;
+  line-height: 60px;
   text-align: center;
   justify-items: center;
 }
@@ -434,15 +438,18 @@ img {
 
 }
 
-/* --- Goals: Expanded --- */
+#meditation {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+/* 
+#button {
+  height: 25px;
+  width: px;
+} */
 
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  height: 141.16px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 4px solid rgba(162, 117, 215, 0.5);
-  border-radius: 4px;
-  box-sizing: border-box;
+#plus {
+  font-size: 26px;
+  padding: 5px 10px;
 }

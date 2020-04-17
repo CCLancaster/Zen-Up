@@ -7,7 +7,7 @@ import Welcome from './pages/welcome';
 import Dashboard from './pages/dashboard';
 import Categories from './pages/categories';
 import Achievements from './pages/achievements';
-import Goals from './pages/Goals';
+import Goals from './pages/goals';
 import Login from './pages/login';
 import Signup from './pages/signup';
 
