@@ -2,8 +2,18 @@ import React from 'react';
 
 function Categories(props) {
     return (
-        <div className="content">
-            <h1>This is the Categories</h1>
+        <div id="boxes">
+            <br />
+            <br />
+            <br />
+            <div id="violet">Understanding</div>
+            <div id="indigo">Intuition</div>
+            <div id="blue">Communication</div>
+            <div id="green">Compassion</div>
+            <div id="yellow">Energy</div>
+            <div id="orange">Balance</div>
+            <div id="red">Stability</div>
+
         </div>
     );
 }

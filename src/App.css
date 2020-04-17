@@ -44,7 +44,91 @@ a {
   max-width: 300px;
   max-height: 450px;
 }
-
+#boxes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+#violet {
+  background: #FFFFFF;
+  border: 4px solid #A275D7;
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #A275D7;
+  border-radius: 8px;
+  color: #A275D7;
+}
+#indigo {
+  background: #FFFFFF;
+  border: 4px solid #3E3189;
+  box-sizing: border-box;
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px #3E3189;
+  border-radius: 8px;
+  color: #3E3189;
+}
+#blue {
+  background: #FFFFFF;
+  border: 4px solid #88C8DC;
+  box-sizing: border-box;
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px #88C8DC;
+  border-radius: 5px;
+  color: #88C8DC;
+}
+#green {
+  background: #FFFFFF;
+  border: 4px solid #A2B879;
+  box-sizing: border-box;
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px #A2B879;
+  color: #A2B879;
+}
+#yellow {
+  background: #FFFFFF;
+  border: 4px solid #F4E198;
+  box-sizing: border-box;
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px #F4E198;
+  color: #F4E198;
+}
+#orange {
+  background: #FFFFFF;
+  border: 4px solid #E39E73;
+  box-sizing: border-box;
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px #E39E73;
+  border-radius: 8px;
+  color: #E39E73;
+}
+#red {
+  background: #FFFFFF;
+  border: 4px solid #D85A67;
+  box-sizing: border-box;
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px #D85A67;
+  color: #D85A67;
+}
 
 /* .App-logo {
   height: 40vmin;
