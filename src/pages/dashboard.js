@@ -8,7 +8,7 @@ function Dashboard(props) {
         <div className="dashboard">
             <div className="user">
                 <div>
-                    <img src="#" />
+                    <img src="../assets/Sarah-King.png" alt="sarah king" width="226px" height="218px" border-radius="10px" />
                 </div>
                 <div>
                     <h1>This is the Dashboard</h1>
