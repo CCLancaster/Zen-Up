@@ -13,7 +13,7 @@ const Content = props => {
       <Route exact path="/" render={
         () => <Home />
       } />
-      <Route path="/auth/login" render={
+      <Route path="/login" render={
         () => <Login  />
       } />
       <Route path="/welcome" render={
