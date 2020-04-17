@@ -40,10 +40,12 @@ a {
   color: #000000;
 }
 
-
-#img {
-  max-width: 300px;
-  max-height: 450px;
+body {
+  background-image: url(./assets/zen-up-circles.png);
+  background-position: center;
+  background-size: contain;
+  background: cover;
+  background-repeat: no-repeat;
 }
 
 /* --- Dashboard --- */
@@ -66,7 +68,7 @@ a {
   align-content: flex-start;
 }
 
-/* --- User --- */
+/* --- D: User --- */
 
 .photo {
   margin-left: 53px;
@@ -80,7 +82,7 @@ a {
   text-align: left;
 }
 
-/* --- Levels --- */
+/* --- D: Levels --- */
 
 .levels {
   display: flex;
@@ -134,7 +136,7 @@ a {
   background: #D85A67;
 }
 
-/* --- Main Tiles --- */
+/* --- D: Tiles --- */
 
 .dashtiles {
   display: flex;
@@ -174,7 +176,7 @@ a {
   border-left: solid black 1px;
 }
 
-/* --- Stats --- */
+/* --- D: Stats --- */
 
 .stats {
   margin-left: 53px;
@@ -185,6 +187,68 @@ a {
   height: 218px;
 }
 
+
+/* --- Achievements --- */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 39px;
+}
+
+.earned {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  text-decoration: underline;
+  margin-left: 115px;
+}
+
+.stickers {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-top: 45px;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.image {
+  margin-bottom: 100px;
+  margin-right: 300px;
+  margin-left: 30px;
+}
+
+img {
+  width: 274px;
+  height: 267px;
+
+}
 
 /* --- Goals & Categories --- */
 
