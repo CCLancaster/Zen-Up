@@ -14,6 +14,7 @@ import Signup from './pages/signup';
 
 const Content = props => {
   return (
+
     <Router>
       <div>
         <nav>
@@ -63,6 +64,7 @@ const Content = props => {
       </div>
       
     </Router>
+
   )
 }
 
