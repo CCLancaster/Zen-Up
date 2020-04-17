@@ -3,10 +3,7 @@ import React from 'react';
 function Goals(props) {
 
     return (
-<<<<<<< HEAD
-=======
       
->>>>>>> 989fadde84f364c57f869802ab6538471f5773d6
         <div className="buttons">
             <div className="violet">
                 Journal Entry
@@ -29,10 +26,6 @@ function Goals(props) {
             <div className="red">
                 Budget
             </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 989fadde84f364c57f869802ab6538471f5773d6
         </div>
     )
 }

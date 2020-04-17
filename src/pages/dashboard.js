@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import SettingsIcon from '@material-ui/icons/Settings';
-import EditIcon from '@material-ui/icons/Edit';
+// import EditIcon from '@material-ui/icons/Edit';
 import Journal from './Journal';
 import Sarah from '../assets/Sarah-King.png';
 
@@ -16,7 +16,8 @@ function Dashboard(props) {
                 <div className="user-info">
                     <h1>Sarah King</h1>
                     < br />
-                    <SettingsIcon />  <EditIcon />
+                    <SettingsIcon />
+                    {/* <EditIcon /> */}
                 </div>
             </div>
             <div className="main">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
@@ -7,8 +7,6 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import { Redirect } from 'react-router-dom';
-
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -35,24 +33,6 @@ const useStyles = makeStyles((theme) => ({
 export default function Login(props) {
   const classes = useStyles();
 
-
-   // Declare and initialize state variables
-  let [email, setEmail] = useState("")
-  let [password, setPassword] = useState("")
-  
-
-  const handleSubmit = (event) => {
-    let email = event.target.email;
-    let val = event.target.value;
-    setEmail({ [email]: val });
-    if (props.email) {
-      return <Redirect to="/welcome" />
-    }
-  }
-
-
-  const MyLink = props => <Link to="/welcome" {...props} />
-
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />
@@ -60,7 +40,7 @@ export default function Login(props) {
         <Typography component="h1" variant="h5">
           Login
         </Typography>
-        <form className={classes.form} onSubmit={handleSubmit} noValidate>
+        <form className={classes.form} noValidate>
           <TextField
             variant="outlined"
             margin="normal"
@@ -82,14 +62,10 @@ export default function Login(props) {
             id="password"
           />
           <Button
-            //type="submit"
             fullWidth
             variant="contained"
             color="primary"
             className={classes.submit}
-            
-            component={MyLink}
-
           >
             Login
           </Button>

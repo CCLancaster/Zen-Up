@@ -1,24 +1,19 @@
-// import React, {useState} from 'react';
-// import './App.css'
-// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-// // import Home from './Home';
-// // import Footer from './Footer'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
+function Nav(props) {
+    return (
+        <div class="topnav">
+            <span className="nav-logo"><Link to="/welcome">ZenUp</Link></span>
+            <div class="topnav-right">
+                <a><Link to="/dashboard">Dashboard</Link></a> 
+                <a><Link to="/categories">Categories</Link></a> 
+                <a><Link to="/achievements">Achievements</Link></a> 
+                <a><Link to="/login">Login</Link></a> 
+                <a><Link to="/signup">Signup</Link></a> 
+            </div>
+        </div>
+    );
+}
 
-// function Nav(props) {
-//     return (
-//         <Router>
-//             <div>
-//                 <nav className="App-nav">
-//                     <ul className="nav-links">
-//                         <li><Link to="/">Zen Up</Link></li>
-//                         <li><Link to="/dashboard">Dashboard</Link></li> 
-//                     </ul >
-//                 </nav>
-//             </div>
-//         </Router>
-       
-//     );
-// }
-
-// export default Nav;
+export default Nav;
