@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from './pages/home';
 import Welcome from './pages/welcome';
 import Dashboard from './pages/dashboard';
+import Categories from './pages/categories';
+import Achievements from './pages/achievements';
+import Goals from './pages/goals';
 import Login from './pages/login';
 import Profile from './pages/profile';
 import Signup from './pages/signup';
@@ -21,17 +24,43 @@ const Content = props => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/dashboard">Dashboard</Link></li> 
             <li><Link to="/profile">Profile</Link></li> 
+            <li><Link to="/categories">Categories</Link></li> 
+            <li><Link to="/achievements">Achievements</Link></li> 
+            <li><Link to="/goals">Goals</Link></li> 
             <li><Link to="/login">Login</Link></li> 
             <li><Link to="/signup">signup</Link></li> 
           </ul >
           </nav>
       </div>
-      <Route exact path="/" component={Home} />
-      <Route path="/welcome" component={Welcome}/>
-      <Route path="/dashboard" component={Dashboard}/>
-      <Route path="/profile" component={Profile} />
-      <Route path="/login" component={Login}/>
-      <Route path="/signup" component={Signup} />
+      <div className="container">
+        <Route exact path="/" render={
+          () => <Home />
+        } />
+        <Route path="/welcome" render={
+          () => <Welcome />
+        } />
+        <Route path="/dashboard" render={
+          () => <Dashboard />
+        } />
+        <Route path="/profile" render={
+          () => <Profile />
+        } />
+            <Route path="/categories" render={
+          () => <Categories />
+        } />
+        <Route path="/achievements" render={
+          () => <Achievements />
+        } />
+        <Route path="/goals" render={
+          () => <Goals />
+        } />
+        <Route path="/login" render={
+          () => <Login  />
+        } />
+        <Route path="/signup" render={
+          () => <Signup />
+        } />
+      </div>
       
     </Router>
   )
