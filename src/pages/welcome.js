@@ -1,9 +1,11 @@
 import React from 'react';
+import Image from '../assets/zen-up-circles.png'
 
 function Wecome(props) {
     return (
-        <div className="content">
-            <h1>This is the Welcome page</h1>
+        <div>
+            <h1 className="welcome">Welcome <br></br>Back<br></br>Sarah</h1>
+            <img className="logo" src={Image} alt="Logo" width='600px'/>
         </div>
     );
 }

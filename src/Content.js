@@ -15,17 +15,19 @@ import Signup from './pages/signup';
 
 const Content = props => {
   return (
-
     <Router>
       <div>
         <nav>
           <ul>
-            <a><Link className="nav-logo" to="/welcome">Zen Up</Link></a>
+            <li><Link className="nav-logo" to="/welcome">ZenUp</Link></li>
           </ul>
           <ul className="nav-links">
-            <li><Link to="/achievements">Achievements</Link></li> 
-            <li><Link to="/categories">Categories</Link></li> 
+            {/* <li><Link to="/">Home</Link></li> */}
             <li><Link to="/dashboard">Dashboard</Link></li> 
+            {/* <li><Link to="/profile">Profile</Link></li>  */}
+            <li><Link to="/categories">Categories</Link></li> 
+            <li><Link to="/achievements">Achievements</Link></li> 
+            {/* <li><Link to="/goals">Goals</Link></li>  */}
             <li><Link to="/login">Login</Link></li> 
             <li><Link to="/signup">signup</Link></li> 
           </ul >
@@ -58,7 +60,6 @@ const Content = props => {
         } />
       </div>
     </Router>
-
   )
 }
 

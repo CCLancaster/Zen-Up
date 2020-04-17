@@ -28,16 +28,49 @@ a {
 
 .nav-logo {
   position: absolute;
+  width: 89;
   left: 2.92%;
   right: 70.38%;
   top: 0.48%;
-  bottom: 16.48%;
+  bottom: 90.45%;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
   line-height: 61px;
   color: #000000;
+}
+
+.content {
+  margin-top: 10%;
+}
+
+.container {
+  position: relative;
+}
+
+.zu {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 70px;
+}
+
+.welcome {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 40px;
+}
+
+.logo {
+  margin-top: 3%;
 }
 
 body {
@@ -395,6 +428,7 @@ img {
   text-align: center;
 
 }
+
 
 /* .App-logo {
   height: 40vmin;

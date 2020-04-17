@@ -6,6 +6,7 @@ import hunterImg from '../assets/hunter.png';
 import joyImg from '../assets/joy.png';
 import lostImg from '../assets/lost.png';
 
+
 function Achievement(){
 
     return(
@@ -32,6 +33,7 @@ function Achievement(){
                     <div className="image"><img className='img' src={lostImg} alt='lost' /></div>
                 </div>
             </div>
+
         </div>
     )
 }
