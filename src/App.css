@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+body {
+  background-image: url(./assets/zen-up-circles.png);
+  background-position: 50% 95%;
+  background-size: 948px 871px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 100px;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -73,14 +82,6 @@ a {
   margin-top: 3%;
 }
 
-body {
-  background-image: url(./assets/zen-up-circles.png);
-  background-position: 50% 95%;
-  background-size: 948px 871px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin-top: 100px;
-}
 
 /* --- Login --- */
 

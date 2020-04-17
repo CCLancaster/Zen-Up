@@ -5,9 +5,6 @@ function Goals(props) {
 
     return (
       
-        <div>
-            <img className="logo" src={Image} alt="Logo" />
-
         <div className="buttons">
             <div className="violet">
                 Journal Entry
