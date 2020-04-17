@@ -6,7 +6,8 @@ import hunterImg from '../assets/hunter.png';
 import joyImg from '../assets/joy.png';
 import lostImg from '../assets/lost.png';
 
-function Achievement(props){
+
+function Achievement(){
 
     return(
         <div>

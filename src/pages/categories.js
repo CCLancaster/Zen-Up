@@ -12,6 +12,7 @@ function Categories(props) {
             <div className="orange">Balance</div>
             <div className="red">Stability</div>
         </div>
+
     );
 }
 

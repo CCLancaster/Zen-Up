@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Nav from './Nav';
+// import Nav from './Nav';
 import Content from './Content';
 
 function App() {
@@ -22,14 +22,19 @@ function App() {
       "content" : "I can't believe SEI29 cohort is almost done, I'm going to miss them so much!"
   }]
   )
- 
+
+  let [level, setLevel] = useState('1')
+  
+  const updateLevel = newLevel => {
+    setLevel(newLevel)
+  }
 
   return (
     <Router>
       <div className="app">
         {/* <Nav /> */}
         <main>
-          <Content journal={journalEntries} />
+          <Content journal={journalEntries} level={level} updateLevel={updateLevel}/>
         </main>
       </div>
     </Router>  

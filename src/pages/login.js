@@ -12,7 +12,7 @@ import { Redirect } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
-    marginTop: theme.spacing(8),
+    marginTop: '80%',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -35,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Login(props) {
   const classes = useStyles();
 
+
    // Declare and initialize state variables
   let [email, setEmail] = useState("")
   let [password, setPassword] = useState("")
@@ -48,6 +49,9 @@ export default function Login(props) {
       return <Redirect to="/welcome" />
     }
   }
+
+
+  const MyLink = props => <Link to="/welcome" {...props} />
 
   return (
     <Container component="main" maxWidth="xs">
@@ -78,11 +82,14 @@ export default function Login(props) {
             id="password"
           />
           <Button
-            type="submit"
+            //type="submit"
             fullWidth
             variant="contained"
             color="primary"
             className={classes.submit}
+            
+            component={MyLink}
+
           >
             Login
           </Button>

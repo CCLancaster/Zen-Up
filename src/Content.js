@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
+
 import Home from './pages/home';
 import Welcome from './pages/welcome';
 import Dashboard from './pages/dashboard';
@@ -9,6 +10,7 @@ import Achievements from './pages/achievements';
 import Goals from './pages/Goals';
 import Login from './pages/login';
 import Signup from './pages/signup';
+
 
 
 const Content = props => {
@@ -27,7 +29,7 @@ const Content = props => {
             <li><Link to="/achievements">Achievements</Link></li> 
             {/* <li><Link to="/goals">Goals</Link></li>  */}
             <li><Link to="/login">Login</Link></li> 
-            <li><Link to="/signup">signup</Link></li> 
+            <li><Link to="/signup">Signup</Link></li> 
           </ul >
           </nav>
       </div>
@@ -39,7 +41,7 @@ const Content = props => {
           () => <Welcome />
         } />
         <Route path="/dashboard" render={
-          () => <Dashboard />
+          () => <Dashboard journal={props.journal} level={props.level} updateLevel={props.updateLevel} />
         } />
         <Route path="/categories" render={
           () => <Categories />
@@ -48,7 +50,7 @@ const Content = props => {
           () => <Achievements />
         } />
         <Route path="/goals" render={
-          () => <Goals />
+          () => <Goals level={props.level} updateLevel={props.updateLevel} />
         } />
         <Route path="/login" render={
           () => <Login  />
@@ -57,7 +59,6 @@ const Content = props => {
           () => <Signup />
         } />
       </div>
-      
     </Router>
   )
 }
