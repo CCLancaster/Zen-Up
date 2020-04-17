@@ -46,6 +46,146 @@ a {
   max-height: 450px;
 }
 
+/* --- Dashboard --- */
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+/* --- User --- */
+
+.photo {
+  margin-left: 53px;
+  width: 226px;
+  height: 218px;
+  border-radius: 10px;
+}
+
+.user-info {
+  margin-left: 34px;
+  text-align: left;
+}
+
+/* --- Levels --- */
+
+.levels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 122px;
+  height: 322;
+  margin-top: 50px;
+  margin-left: 105px;
+}
+
+.level {
+  width: 122px;
+  height: 46px;
+  border-radius: 5px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 46px;
+
+  color: #000000;
+}
+
+.seven {
+  background: rgba(162, 117, 215, 0.25);
+}
+
+.six {
+  background: rgba(62, 49, 137, 0.4);
+}
+
+.five {
+  background: #88C8DC;
+}
+
+.four {
+  background: #A2B879;
+}
+
+.three {
+  background: #F4E198;
+}
+
+.two {
+  background: #E39E73;
+}
+
+.one {
+  background: #D85A67;
+}
+
+/* --- Main Tiles --- */
+
+.dashtiles {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.tile {
+  width:300px;
+  height: 300px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 300px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.ul {
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+.ur {
+  border-bottom: solid black 1px;
+}
+
+.lr {
+  border-left: solid black 1px;
+}
+
+/* --- Stats --- */
+
+.stats {
+  margin-left: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 226px;
+  height: 218px;
+}
+
+
 /* --- Goals & Categories --- */
 
 .buttons {
@@ -53,6 +193,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 93px;
 }
 
 .violet {

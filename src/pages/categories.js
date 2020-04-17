@@ -2,10 +2,7 @@ import React from 'react';
 
 function Categories(props) {
     return (
-        <div id="boxes">
-            <br />
-            <br />
-            <br />
+        <div className="buttons">
             <div className="violet">Understanding</div>
             <div className="indigo">Intuition</div>
             <div className="blue">Communication</div>
