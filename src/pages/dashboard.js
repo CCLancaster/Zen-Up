@@ -4,6 +4,7 @@ import SettingsIcon from '@material-ui/icons/Settings';
 import EditIcon from '@material-ui/icons/Edit';
 
 function Dashboard(props) {
+
     return (
         <div className="dashboard">
             <div className="user">
@@ -12,7 +13,7 @@ function Dashboard(props) {
                 </div>
                 <div>
                     <h1>This is the Dashboard</h1>
-                    <p>{SettingsIcon}  {EditIcon}</p>
+                    <SettingsIcon />  <EditIcon />
                 </div>
             </div>
             <div className="main">
