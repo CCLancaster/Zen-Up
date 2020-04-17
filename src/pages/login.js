@@ -67,7 +67,12 @@ export default function Login(props) {
             fullWidth
             variant="contained"
             color="primary"
+<<<<<<< HEAD
             component={MyLink}
+=======
+            onClick = {<Redirect to="/welcome" />}
+            className={classes.submit}
+>>>>>>> upstream/master
           >
             Login
           </Button>
