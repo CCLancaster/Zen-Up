@@ -6,7 +6,7 @@ import hunterImg from './public/hunter.png';
 import joyImg from './public/joy.png';
 import lostImg from './public/lost.png';
 
-function achievement(){
+function Achievement(props){
 
     return(
         <div>
@@ -25,4 +25,4 @@ function achievement(){
         </div>
     )
 }
-export default achievement;
+export default Achievement;
