@@ -6,13 +6,13 @@ function Categories(props) {
             <br />
             <br />
             <br />
-            <div id="violet">Understanding</div>
-            <div id="indigo">Intuition</div>
-            <div id="blue">Communication</div>
-            <div id="green">Compassion</div>
-            <div id="yellow">Energy</div>
-            <div id="orange">Balance</div>
-            <div id="red">Stability</div>
+            <div className="violet">Understanding</div>
+            <div className="indigo">Intuition</div>
+            <div className="blue">Communication</div>
+            <div className="green">Compassion</div>
+            <div className="yellow">Energy</div>
+            <div className="orange">Balance</div>
+            <div className="red">Stability</div>
 
         </div>
     );
