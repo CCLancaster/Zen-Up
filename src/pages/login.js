@@ -67,7 +67,7 @@ export default function Login(props) {
             variant="contained"
             color="primary"
             onClick = {<Redirect to="/welcome" />}
-           
+            className={classes.submit}
           >
             Login
           </Button>
