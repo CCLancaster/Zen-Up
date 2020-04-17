@@ -31,14 +31,14 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function SignIn() {
+export default function Login(props) {
   const classes = useStyles();
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
         <Typography component="h1" variant="h5">
-          Sign in
+          Login
         </Typography>
         <form className={classes.form} noValidate>
           <TextField
@@ -66,10 +66,10 @@ export default function SignIn() {
             fullWidth
             variant="contained"
             color="primary"
-            onClick = {Redirect='/welcome'}
+            onClick = {<Redirect to="/welcome" />}
             className={classes.submit}
           >
-            Sign In
+            Login
           </Button>
           <Grid container>
             <Grid item xs>

@@ -27,7 +27,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Nav />
+        {/* <Nav /> */}
         <main>
           <Content journal={journalEntries} />
         </main>
@@ -35,4 +35,5 @@ function App() {
     </Router>  
   )
 }
+
 export default App;
