@@ -8,7 +8,6 @@ import Categories from './pages/categories';
 import Achievements from './pages/achievements';
 import Goals from './pages/Goals';
 import Login from './pages/login';
-import Profile from './pages/profile';
 import Signup from './pages/signup';
 
 
@@ -42,10 +41,7 @@ const Content = props => {
         <Route path="/dashboard" render={
           () => <Dashboard />
         } />
-        <Route path="/profile" render={
-          () => <Profile />
-        } />
-            <Route path="/categories" render={
+        <Route path="/categories" render={
           () => <Categories />
         } />
         <Route path="/achievements" render={

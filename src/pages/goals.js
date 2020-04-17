@@ -9,4 +9,4 @@ function Goals(props) {
     );
 }
 
-export default Goals;
+export default Goals; 
