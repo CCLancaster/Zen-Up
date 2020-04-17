@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Login(props) {
   const classes = useStyles();
+  const MyLink = props => <Link to="/welcome" {...props} />
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />
@@ -62,12 +63,11 @@ export default function Login(props) {
             id="password"
           />
           <Button
-            type="submit"
+            //type="submit"
             fullWidth
             variant="contained"
             color="primary"
-            onClick = {<Redirect to="/welcome" />}
-           
+            component={MyLink}
           >
             Login
           </Button>
