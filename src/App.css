@@ -40,6 +40,12 @@ a {
   color: #000000;
 }
 
+
+#img {
+  max-width: 300px;
+  max-height: 450px;
+}
+
 /* --- Goals & Categories --- */
 
 .buttons {
@@ -47,7 +53,6 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .violet {
@@ -179,6 +184,7 @@ a {
   font-size: 21px;
   line-height: 157px;
   text-align: center;
+
 }
 
 /* .App-logo {

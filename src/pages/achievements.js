@@ -6,7 +6,7 @@ import hunterImg from '../assets/hunter.png';
 import joyImg from '../assets/joy.png';
 import lostImg from '../assets/lost.png';
 
-function Achievement(props){
+function Achievement(){
 
     return(
         <div>
@@ -15,12 +15,12 @@ function Achievement(props){
                 <h3>Stickers Earned</h3>
             </header>
             <body className="stickers">
-                <img src={aliveImg} alt='alive'></img>
-                <img src={bichonImg} alt='bichon'></img>
-                <img src={cabinImg} alt='cabin'></img>
-                <img src={hunterImg} alt='hunter'></img>
-                <img src={joyImg} alt='joy'></img>
-                <img src={lostImg} alt='lost'></img>
+                <img id='img' src={aliveImg} alt='alive'></img>
+                <img id='img' src={bichonImg} alt='bichon'></img>
+                <img id='img' src={cabinImg} alt='cabin'></img>
+                <img id='img' src={hunterImg} alt='hunter'></img>
+                <img id='img' src={joyImg} alt='joy'></img>
+                <img id='img' src={lostImg} alt='lost'></img>
             </body>
         </div>
     )
