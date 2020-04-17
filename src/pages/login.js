@@ -66,6 +66,9 @@ export default function Login(props) {
             variant="contained"
             color="primary"
             className={classes.submit}
+            
+            component={MyLink}
+
           >
             Login
           </Button>

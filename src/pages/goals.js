@@ -4,6 +4,12 @@ function Goals(props) {
 
     return (
       
+<<<<<<< HEAD
+=======
+        <div>
+            <img className="logo" src={Image} alt="Logo" />
+
+>>>>>>> 931d4a9e33cbe829f69255c835332fac1cfbd89e
         <div className="buttons">
             <div className="violet">
                 Journal Entry
@@ -26,6 +32,10 @@ function Goals(props) {
             <div className="red">
                 Budget
             </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 931d4a9e33cbe829f69255c835332fac1cfbd89e
         </div>
     )
 }

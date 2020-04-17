@@ -124,6 +124,329 @@ body {
   width: 122px;
   height: 46px;
   border-radius: 5px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 46px;
+
+  color: #000000;
+}
+
+.seven {
+  background: rgba(162, 117, 215, 0.25);
+}
+
+.six {
+  background: rgba(62, 49, 137, 0.4);
+}
+
+.five {
+  background: #88C8DC;
+}
+
+.four {
+  background: #A2B879;
+}
+
+.three {
+  background: #F4E198;
+}
+
+.two {
+  background: #E39E73;
+}
+
+.one {
+  background: #D85A67;
+}
+
+/* --- D: Tiles --- */
+
+.dashtiles {
+  display: flex;
+  flex-direction: column;
+  margin: auto 20%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.tile {
+  width:300px;
+  height: 300px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 300px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.ul {
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+.ur {
+  border-bottom: solid black 1px;
+}
+
+.lr {
+  border-left: solid black 1px;
+}
+
+/* --- D: Stats --- */
+
+.stats {
+  margin-left: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 226px;
+  height: 218px;
+}
+
+
+/* --- Achievements --- */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 39px;
+}
+
+.earned {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  text-decoration: underline;
+  margin-left: 115px;
+}
+
+.stickers {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-top: 45px;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.image {
+  margin-bottom: 100px;
+  margin-right: 300px;
+  margin-left: 30px;
+}
+
+img {
+  width: 274px;
+  height: 267px;
+
+}
+
+/* --- Goals & Categories --- */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 93px;
+}
+
+.violet {
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border: 4px solid #A275D7;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #A275D7;
+  border-radius: 8px;
+  color: #A275D7;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 157px;
+  text-align: center;
+}
+
+.indigo {
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border: 4px solid #3E3189;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #3E3189;
+  border-radius: 8px;
+  color: #3E3189;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 157px;
+  text-align: center;
+}
+
+.blue {
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border: 4px solid #88C8DC;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #88C8DC;
+  border-radius: 5px;
+  color: #88C8DC;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 157px;
+  text-align: center;
+}
+
+.green {
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border: 4px solid #A2B879;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #A2B879;
+  color: #A2B879;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 157px;
+  text-align: center;
+}
+
+.yellow {
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border: 4px solid #F4E198;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #F4E198;
+  color: #F4E198;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 157px;
+  text-align: center;
+}
+
+.orange {
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border: 4px solid #E39E73;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #E39E73;
+  border-radius: 8px;
+  color: #E39E73;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 157px;
+  text-align: center;
+  justify-items: center;
+}
+
+.red {
+  width: 415px;
+  height: 157px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  border: 4px solid #D85A67;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px #D85A67;
+  color: #D85A67;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 157px;
+  text-align: center;
+
+}
+
+
+.photo {
+  margin-left: 53px;
+  width: 226px;
+  height: 218px;
+  border-radius: 10px;
+}
+
+.user-info {
+  margin-left: 34px;
+  text-align: left;
+}
+
+/* --- D: Levels --- */
+
+.levels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 122px;
+  height: 322;
+  margin-top: 50px;
+  margin-left: 105px;
+}
+
+.level {
+  width: 122px;
+  height: 46px;
+  border-radius: 5px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
