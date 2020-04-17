@@ -16,11 +16,20 @@ const Content = props => {
       <Route path="/auth/login" render={
         () => <Login  />
       } />
-      <Route path="/auth/signup" render={
-        () => <Signup />
+      <Route path="/welcome" render={
+        () => <Welcome />
       } />
-      <Route path="/profile" render={
-        () => <Profile />
+      <Route path="/dashboard" render={
+        () => <Dashboard />
+      } />
+      <Route path="/categories" render={
+        () => <Categories />
+      } />
+      <Route path="/achievements" render={
+        () => <Achievements />
+      } />
+      <Route path="/goals" render={
+        () => <Goals />
       } />
    </div>
   )
