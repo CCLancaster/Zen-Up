@@ -118,6 +118,15 @@ a {
 .user-info {
   margin-left: 34px;
   text-align: left;
+  border: solid pink 3px;
+  
+}
+
+.info {
+ text-align: left;
+ display: flex;
+ flex-direction: row;
+ align-content: flex-start;
 }
 
 /* --- D: Levels --- */
@@ -207,22 +216,18 @@ a {
 }
 
 .ur {
+  border-left: solid black 1px;
   border-bottom: solid black 1px;
 }
 
-.lr {
-  border-left: solid black 1px;
+.ll {
+  border-top: solid black 1px;
+  border-right: solid black 1px;
 }
 
-/* --- D: Stats --- */
-
-.stats {
-  margin-left: 53px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 226px;
-  height: 218px;
+.lr {
+  border-top: solid black 1px;
+  border-left: solid black 1px;
 }
 
 
@@ -283,9 +288,9 @@ a {
 }
 
 img {
-  width: 274px;
-  height: 267px;
-
+  width: 250px;
+  height: 243px;
+  border-radius: 10px
 }
 
 /* --- Goals & Categories --- */
@@ -429,39 +434,3 @@ img {
   text-align: center;
 
 }
-
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

@@ -15,8 +15,19 @@ function Dashboard(props) {
                 </div>
                 <div className="user-info">
                     <h1>Sarah King</h1>
-                    < br />
+                    <div className="info">
                     <SettingsIcon />  <EditIcon />
+                    </div>
+                    < br/>
+                    <div className="info">
+                        <h3>Level 6</h3>
+                    </div>
+                    <div className="info">
+                        <p>You have 5 tasks </p>
+                    </div>
+                    <div className="info">
+                        <p>to complete to level up!</p>
+                    </div>
                 </div>
             </div>
             <div className="main">
@@ -40,14 +51,7 @@ function Dashboard(props) {
                     </div>
                 </div>
             </div>
-            <div className="stats">
-                <div>
-                    <h3>Level 3</h3>
-                </div>
-                <div>
-                    <p>you have 6 tasks to complete to level up</p>
-                </div>
-            </div>
+            
             <Router>
                 <Route path="/journal" render={() => <Journal journal={props.journal} /> } />
             </Router>

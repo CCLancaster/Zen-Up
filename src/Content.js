@@ -29,7 +29,7 @@ const Content = props => {
             <li><Link to="/achievements">Achievements</Link></li> 
             {/* <li><Link to="/goals">Goals</Link></li>  */}
             <li><Link to="/login">Login</Link></li> 
-            <li><Link to="/signup">signup</Link></li> 
+            <li><Link to="/signup">Signup</Link></li> 
           </ul >
           </nav>
       </div>
