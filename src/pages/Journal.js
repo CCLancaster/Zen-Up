@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom'
 
 
 function Journal(props) {
-
-
-
     let journalEntries = props.journal.length < 1 ? 
         <h3>You don't have any journal entries yet!</h3> :
         props.journal.map((entry, i) => {

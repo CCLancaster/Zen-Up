@@ -10,18 +10,28 @@ function Achievement(props){
 
     return(
         <div>
-            <header>
-                <h1>Achievements</h1>
-                <h3>Stickers Earned</h3>
-            </header>
-            <body className="stickers">
-                <img src={aliveImg} alt='alive'></img>
-                <img src={bichonImg} alt='bichon'></img>
-                <img src={cabinImg} alt='cabin'></img>
-                <img src={hunterImg} alt='hunter'></img>
-                <img src={joyImg} alt='joy'></img>
-                <img src={lostImg} alt='lost'></img>
-            </body>
+            <div className="header">
+                <div className="title">
+                    <h1>Achievements</h1>
+                </div>
+                <div className="earned">
+                    <h3>Stickers Earned</h3>
+                </div>
+            </div>
+            <div className="stickers">
+                <div className="rows">
+                    <div className="image"><img src={aliveImg} alt='alive' /></div>
+                    <div className="image"><img src={bichonImg} alt='bichon' /></div>
+                    <div className="image"><img src={hunterImg} alt='hunter' /></div>
+                    
+                </div>
+                < br/>
+                <div className="rows">
+                    <div className="image"><img className='img' src={cabinImg} alt='cabin' /></div>
+                    <div className="image"><img className='img' src={joyImg} alt='joy' /></div>
+                    <div className="image"><img className='img' src={lostImg} alt='lost' /></div>
+                </div>
+            </div>
         </div>
     )
 }
