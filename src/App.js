@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Nav />
+        {/* <Nav /> */}
         <main>
           <Content />
         </main>
@@ -18,3 +18,5 @@ function App() {
     </Router>  
   )
 }
+
+export default App;
