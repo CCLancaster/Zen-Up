@@ -42,11 +42,15 @@ a {
 
 body {
   background-image: url(./assets/zen-up-circles.png);
-  background-position: center;
-  background-size: contain;
-  background: cover;
+  background-position: 50% 95%;
+  background-size: 948px 871px;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 100px;
 }
+
+/* --- Login --- */
+
 
 /* --- Dashboard --- */
 
@@ -141,7 +145,7 @@ body {
 .dashtiles {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: auto 20%;
 }
 
 .row {
