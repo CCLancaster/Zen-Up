@@ -40,6 +40,11 @@ a {
   color: #000000;
 }
 
+#img {
+  max-width: 300px;
+  max-height: 450px;
+}
+
 
 /* .App-logo {
   height: 40vmin;
