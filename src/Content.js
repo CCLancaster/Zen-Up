@@ -18,7 +18,7 @@ const Content = props => {
       <div>
         <nav>
           <ul>
-            <a><Link className="nav-logo" to="/welcome">Zen Up</Link></a>
+            <li><Link className="nav-logo" to="/welcome">Zen Up</Link></li>
           </ul>
           <ul className="nav-links">
             <li><Link to="/">Home</Link></li>
