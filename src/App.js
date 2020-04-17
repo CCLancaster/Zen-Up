@@ -24,14 +24,17 @@ function App() {
   )
 
   let [level, setLevel] = useState('1')
- 
+  
+  const updateLevel = newLevel => {
+    setLevel(newLevel)
+  }
 
   return (
     <Router>
       <div className="app">
         {/* <Nav /> */}
         <main>
-          <Content journal={journalEntries} level={level}/>
+          <Content journal={journalEntries} level={level} updateLevel={updateLevel}/>
         </main>
       </div>
     </Router>  

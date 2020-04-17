@@ -39,7 +39,7 @@ const Content = props => {
           () => <Welcome />
         } />
         <Route path="/dashboard" render={
-          () => <Dashboard journal={props.journal} />
+          () => <Dashboard journal={props.journal} level={props.level} updateLevel={props.updateLevel} />
         } />
         <Route path="/categories" render={
           () => <Categories />
@@ -48,7 +48,7 @@ const Content = props => {
           () => <Achievements />
         } />
         <Route path="/goals" render={
-          () => <Goals />
+          () => <Goals level={props.level} updateLevel={props.updateLevel} />
         } />
         <Route path="/login" render={
           () => <Login  />
