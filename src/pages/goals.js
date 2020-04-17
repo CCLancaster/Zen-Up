@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../image/zen-up-circles.png'
+import Image from '../assets/zen-up-circles.png'
 
 function Goals(props) {
     return (

@@ -1,9 +1,10 @@
 import React from 'react';
+import Image from '../assets/zen-up-circles.png'
 
 function Categories(props) {
     return (
-        <div className="content">
-            <h1>This is the Categories</h1>
+        <div>
+            <img className="logo" src={Image} alt="Logo" width='600px'/>
         </div>
     );
 }

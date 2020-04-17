@@ -52,15 +52,25 @@ a {
 .zu {
   position: absolute;
   left: 0;
-  top: 46%;
+  top: 40%;
   width: 100%;
   font-family: Montserrat;
   text-align: center;
   font-size: 70px;
 }
 
+.welcome {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 40px;
+}
+
 .logo {
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 
