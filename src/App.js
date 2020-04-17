@@ -22,6 +22,8 @@ function App() {
       "content" : "I can't believe SEI29 cohort is almost done, I'm going to miss them so much!"
   }]
   )
+
+  let [level, setLevel] = useState('1')
  
 
   return (
@@ -29,7 +31,7 @@ function App() {
       <div className="app">
         {/* <Nav /> */}
         <main>
-          <Content journal={journalEntries} />
+          <Content journal={journalEntries} level={level}/>
         </main>
       </div>
     </Router>  

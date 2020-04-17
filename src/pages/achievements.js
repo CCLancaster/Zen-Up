@@ -20,7 +20,7 @@ function Achievement(){
             </div>
             <div className="stickers">
                 <div className="rows">
-                    <div ><img className="image" src={aliveImg} alt='alive' width="274" height="267" /></div>
+                    <div className="image"><img src={aliveImg} alt='alive' /></div>
                     <div className="image"><img src={bichonImg} alt='bichon' /></div>
                     <div className="image"><img src={hunterImg} alt='hunter' /></div>
                     

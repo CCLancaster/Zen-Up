@@ -12,6 +12,7 @@ import Login from './pages/login';
 import Signup from './pages/signup';
 
 
+
 const Content = props => {
   return (
 
@@ -38,7 +39,7 @@ const Content = props => {
           () => <Welcome />
         } />
         <Route path="/dashboard" render={
-          () => <Dashboard />
+          () => <Dashboard journal={props.journal} />
         } />
         <Route path="/categories" render={
           () => <Categories />

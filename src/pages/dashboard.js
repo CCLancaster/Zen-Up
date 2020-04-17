@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import SettingsIcon from '@material-ui/icons/Settings';
 import EditIcon from '@material-ui/icons/Edit';
+import Journal from './journal';
 
 function Dashboard(props) {
 
@@ -46,6 +47,9 @@ function Dashboard(props) {
                     <p>you have 6 tasks to complete to level up</p>
                 </div>
             </div>
+            <Router>
+                <Route path="/journal" render={() => <Journal journal={props.journal} /> } />
+            </Router>
         </div>
     );
 }
