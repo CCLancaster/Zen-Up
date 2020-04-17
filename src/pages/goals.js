@@ -1,9 +1,10 @@
 import React from 'react';
+import Image from '../image/zen-up-circles.png'
 
 function Goals(props) {
     return (
-        <div className="content">
-            <h1>This is the Goals page</h1>
+        <div>
+            <img className="logo" src={Image} alt="Logo" />
         </div>
     );
 }
