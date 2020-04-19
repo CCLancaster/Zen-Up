@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../assets/Sarah-King.png'
 
 function Goals(props) {
 
